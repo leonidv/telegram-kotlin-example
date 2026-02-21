@@ -1,0 +1,30 @@
+@startuml
+hide members
+hide circle
+skinparam minClassWidth 100
+!include classes.puml
+hide SupergroupFullInfo
+
+Message <|-- messageText
+Message <|-- Others
+Message <|-- messagePhoto
+
+Chat <|-- OneToOne
+OneToOne <|-- PrivateChat
+OneToOne <|-- SecretChats
+
+Chat <|---- Groups
+Groups <|-- Supergroup
+Groups <|---- Channel
+Groups <|-- Forum
+Groups <|-- BasicGroup
+Groups <|-- Gigagroup
+Groups <|-- DiscussionGroup 
+Groups <|-- DirectMessages
+ 
+Chat *- Message
+Channel o- DiscussionGroup
+Channel o- DirectMessages
+
+DiscussionGroup -[hidden]-> DirectMessages
+@enduml

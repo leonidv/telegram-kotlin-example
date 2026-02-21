@@ -1,0 +1,31 @@
+@startuml
+
+
+json Supergroup {
+    "id" : 2200372444,
+    "isChannel": false,
+    "isForum": false,
+    "hasLinkedChat": false,
+    "hasDirectMessagesGroup": false,
+    "isDirectMessagesGroup": false
+}
+
+json SupergroupFullInfo {
+    "description" : "",
+    "linkedChatId" : 0,
+    "directMessagesChatId": 0
+
+}
+
+json Chat {
+    "id" : "-1002200372444",
+    "type" : {
+        "_type": "ChatTypeSupergroup",
+        "supergroupId" : "2200372444",
+        "isChannel": false
+    }
+}
+
+Supergroup -> SupergroupFullInfo : getSupergroupFullInfo
+
+@enduml

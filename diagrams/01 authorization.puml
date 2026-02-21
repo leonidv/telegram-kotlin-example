@@ -1,0 +1,20 @@
+@startuml
+hide empty description
+[*] --> WaitTdlibParameters
+WaitTdlibParameters --> Authorization: setTdlibParameters
+Authorization --> [*]:GetMe
+
+state Authorization {
+    state twoFactor <<choice>> : two factor
+
+    [*] --> WaitPhoneNumber
+    WaitPhoneNumber --> WaitCode : setAuthenticationPhoneNumber
+    WaitCode --> twoFactor : checkAuthenticationCode
+    twoFactor --> AuthorizationStateReady: [2FA disabled]
+    twoFactor -> WaitPassword : [2FA enabled]
+    WaitPassword --> WaitPassword: requestAuthenticationPasswordRecovery
+    WaitPassword --> AuthorizationStateReady: checkAuthenticationPassword
+}
+
+
+@enduml

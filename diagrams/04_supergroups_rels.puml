@@ -1,0 +1,43 @@
+@startuml
+hide empty members
+hide circle
+skinparam minClassWidth 100
+!include classes.puml
+
+hide Message
+hide messageText
+hide Others
+hide messagePhoto
+
+class Supergroup {
+    id : Long
+    hasLinkedChat: Boolean
+    hasDirectMessagesGroup: Boolean
+}
+
+class SupergroupFullInfo {
+  directMessagesChatId : Long
+  linkedChatId: Long
+}
+
+class GetSupergroupFullInfo {
+    supergroupId : Long
+}
+
+class UpdateSupergroupFullInfo {
+    supergroupId : Long
+    supergroupFullInfo: SupergroupFullInfo
+}
+
+class Chat {
+    type = Supergroup
+    id : Long
+}
+
+UpdateSupergroupFullInfo -> SupergroupFullInfo
+SupergroupFullInfo::directMessagesChatId -> Chat::id
+SupergroupFullInfo::linkedChatId -> Chat::id
+GetSupergroupFullInfo --> SupergroupFullInfo : return
+
+
+@enduml

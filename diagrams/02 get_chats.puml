@@ -1,0 +1,22 @@
+@startuml
+|Client|
+start
+repeat
+    : LoadChats;
+repeat while (Error 404)
+
+|Telegram server|
+    :UpdateSupergroup;
+    if (supergroup.isChannel) then
+        |Client|
+        :getSupergroupFullInfo;
+    endif
+|Telegram server|    
+    :UpdateNewChat;    
+    :UpdateChatAddedToList;
+    :UpdateChatLastMessage;
+    :UpdateSavedMessagesTopic;
+    :UpdateChatPosition;
+stop
+
+@enduml

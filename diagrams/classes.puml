@@ -1,0 +1,25 @@
+@startuml
+abstract  class Message
+
+class messageText
+class "..." as Others
+class messagePhoto
+
+abstract class Chat
+class "Private chat" as PrivateChat
+class Supergroup
+class SupergroupFullInfo
+class Channel
+class Forum
+class "Secret chats" as SecretChats
+class "Basic group"  as BasicGroup <<deprecated>>
+class "Gigagroup" as Gigagroup <<deprecated>>
+
+class "Discussion Group" as DiscussionGroup
+class "Direct Messages" as DirectMessages 
+abstract class "One-to-One" as OneToOne
+
+abstract class Groups
+
+
+@enduml

@@ -1,0 +1,183 @@
+17:55:36.160 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 2200177116
+17:55:36.161 [Telegram client] TRACE lv.tg.MyTelegramClient - UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 2200177116
+    usernames = Usernames {
+      activeUsernames = vector[1] {
+        "lvtest01"
+      }
+      disabledUsernames = vector[0] {
+      }
+      editableUsername = "lvtest01"
+    }
+    date = 1762699387
+    status = ChatMemberStatusMember {
+      memberUntilDate = 0
+    }
+    memberCount = 2
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = false
+    hasLocation = false
+    signMessages = false
+    showMessageSender = false
+    joinToSendMessages = true
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = true
+    isBroadcastGroup = false
+    isForum = false
+    isDirectMessagesGroup = false
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = false
+    hasForumTabs = false
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}
+
+17:55:36.161 [main] TRACE lv.tg.MyTelegramClient - loadChats result: Ok {
+}
+
+17:55:36.161 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+17:55:36.161 [main] TRACE lv.tg.MyTelegramClient - [send] LoadChats {
+  chatList = ChatListMain {
+  }
+  limit = 1
+}
+
+17:55:36.161 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1002200177116
+17:55:36.161 [Telegram client] TRACE lv.tg.MyTelegramClient - UpdateNewChat {
+  chat = Chat {
+    id = -1002200177116
+    type = f
+    title = "Lv test channel without comments"
+    photo = null
+    accentColorId = 4
+    backgroundCustomEmojiId = 0
+    profileAccentColorId = -1
+    profileBackgroundCustomEmojiId = 0
+    permissions = ChatPermissions {
+      canSendBasicMessages = false
+      canSendAudios = false
+      canSendDocuments = false
+      canSendPhotos = false
+      canSendVideos = false
+      canSendVideoNotes = false
+      canSendVoiceNotes = false
+      canSendPolls = false
+      canSendOtherMessages = false
+      canAddLinkPreviews = false
+      canChangeInfo = false
+      canInviteUsers = false
+      canPinMessages = false
+      canCreateTopics = false
+    }
+    lastMessage = null
+    positions = vector[0] {
+    }
+    chatLists = vector[0] {
+    }
+    messageSenderId = null
+    blockList = null
+    hasProtectedContent = false
+    isTranslatable = false
+    isMarkedAsUnread = false
+    viewAsTopics = false
+    hasScheduledMessages = false
+    canBeDeletedOnlyForSelf = false
+    canBeDeletedForAllUsers = false
+    canBeReported = true
+    defaultDisableNotification = false
+    unreadCount = 0
+    lastReadInboxMessageId = 1048576
+    lastReadOutboxMessageId = 2251799812636672
+    unreadMentionCount = 0
+    unreadReactionCount = 0
+    notificationSettings = ChatNotificationSettings {
+      useDefaultMuteFor = true
+      muteFor = 0
+      useDefaultSound = true
+      soundId = -1
+      useDefaultShowPreview = true
+      showPreview = false
+      useDefaultMuteStories = true
+      muteStories = false
+      useDefaultStorySound = true
+      storySoundId = -1
+      useDefaultShowStoryPoster = true
+      showStoryPoster = true
+      useDefaultDisablePinnedMessageNotifications = true
+      disablePinnedMessageNotifications = false
+      useDefaultDisableMentionNotifications = true
+      disableMentionNotifications = false
+    }
+    availableReactions = ChatAvailableReactionsSome {
+      reactions = vector[12] {
+        ReactionTypeEmoji {
+          emoji = "👍"
+        }
+        ReactionTypeEmoji {
+          emoji = "👎"
+        }
+        ReactionTypeEmoji {
+          emoji = "❤"
+        }
+        ReactionTypeEmoji {
+          emoji = "🎉"
+        }
+        ReactionTypeEmoji {
+          emoji = "💩"
+        }
+        ReactionTypeEmoji {
+          emoji = "🔥"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤮"
+        }
+        ReactionTypeEmoji {
+          emoji = "😂"
+        }
+        ReactionTypeEmoji {
+          emoji = "😭"
+        }
+        ReactionTypeEmoji {
+          emoji = "😱"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤩"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤡"
+        }
+      }
+      maxReactionCount = 11
+    }
+    messageAutoDeleteTime = 0
+    emojiStatus = null
+    background = null
+    themeName = ""
+    actionBar = null
+    businessBotManageBar = null
+    videoChat = VideoChat {
+      groupCallId = 0
+      hasParticipants = false
+      defaultParticipantId = null
+    }
+    pendingJoinRequests = null
+    replyMarkupMessageId = 0
+    draftMessage = null
+    clientData = ""
+  }
+}
+
+17:55:36.161 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = -1002200177116
+17:55:36.161 [Telegram client] TRACE lv.tg.MyTelegramClient - UpdateChatAddedToList {
+  chatId = -1002200177116
+  chatList = ChatListMain {
+  }
+}

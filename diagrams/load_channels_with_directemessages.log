@@ -1,0 +1,211 @@
+07:58:55.357 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateSupergroup supergroup.id = 2200315944, lvtest05
+07:58:55.358 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 2200315944
+    usernames = Usernames {
+      activeUsernames = vector[1] {
+        "lvtest05"
+      }
+      disabledUsernames = vector[0] {
+      }
+      editableUsername = "lvtest05"
+    }
+    date = 1763613912
+    status = ChatMemberStatusMember {
+      memberUntilDate = 0
+    }
+    memberCount = 2
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = false
+    hasLocation = false
+    signMessages = false
+    showMessageSender = false
+    joinToSendMessages = true
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = true
+    isBroadcastGroup = false
+    isForum = false
+    isDirectMessagesGroup = false
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = true
+    hasForumTabs = false
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}
+
+07:58:55.358 [TDLib thread        ] l.t.c.LvTelegramClient DEBUG GetSupergroupFullInfo -> SupergroupFullInfo
+07:58:55.358 [TDLib thread        ] l.t.c.LvTelegramClient TRACE SupergroupFullInfo {
+  photo = null
+  description = "Channel with direct messages chat"
+  memberCount = 2
+  administratorCount = 0
+  restrictedCount = 0
+  bannedCount = 0
+  linkedChatId = 0
+  directMessagesChatId = -2302200315944
+  slowModeDelay = 0
+  slowModeDelayExpiresIn = 0.000000
+  canEnablePaidMessages = true
+  canEnablePaidReaction = true
+  canGetMembers = false
+  hasHiddenMembers = true
+  canHideMembers = false
+  canSetStickerSet = false
+  canSetLocation = false
+  canGetStatistics = false
+  canGetRevenueStatistics = false
+  canGetStarRevenueStatistics = false
+  canSendGift = true
+  canToggleAggressiveAntiSpam = false
+  isAllHistoryAvailable = true
+  canHaveSponsoredMessages = true
+  hasAggressiveAntiSpamEnabled = false
+  hasPaidMediaAllowed = true
+  hasPinnedStories = false
+  giftCount = 0
+  myBoostCount = 0
+  unrestrictBoostCount = 0
+  outgoingPaidMessageStarCount = 0
+  stickerSetId = 0
+  customEmojiStickerSetId = 0
+  location = null
+  inviteLink = null
+  botCommands = vector[0] {
+  }
+  botVerification = null
+  upgradedFromBasicGroupId = 0
+  upgradedFromMaxMessageId = 0
+}
+
+07:58:55.366 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateNewChatChat chat.id = -2302200315944 supergroup.id = 1302200315944 Lv test channel with direct messages
+07:58:55.367 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateNewChat {
+  chat = Chat {
+    id = -2302200315944
+    type = ChatTypeSupergroup {
+      supergroupId = 1302200315944
+      isChannel = false
+    }
+    title = "Lv test channel with direct messages"
+    photo = null
+    accentColorId = 1
+    backgroundCustomEmojiId = 0
+    profileAccentColorId = -1
+    profileBackgroundCustomEmojiId = 0
+    permissions = ChatPermissions {
+      canSendBasicMessages = true
+      canSendAudios = true
+      canSendDocuments = true
+      canSendPhotos = true
+      canSendVideos = true
+      canSendVideoNotes = true
+      canSendVoiceNotes = true
+      canSendPolls = true
+      canSendOtherMessages = true
+      canAddLinkPreviews = true
+      canChangeInfo = false
+      canInviteUsers = false
+      canPinMessages = false
+      canCreateTopics = true
+    }
+    lastMessage = null
+    positions = vector[0] {
+    }
+    chatLists = vector[0] {
+    }
+    messageSenderId = null
+    blockList = null
+    hasProtectedContent = false
+    isTranslatable = false
+    isMarkedAsUnread = false
+    viewAsTopics = false
+    hasScheduledMessages = false
+    canBeDeletedOnlyForSelf = false
+    canBeDeletedForAllUsers = false
+    canBeReported = true
+    defaultDisableNotification = false
+    unreadCount = 0
+    lastReadInboxMessageId = 0
+    lastReadOutboxMessageId = 0
+    unreadMentionCount = 0
+    unreadReactionCount = 0
+    notificationSettings = ChatNotificationSettings {
+      useDefaultMuteFor = true
+      muteFor = 0
+      useDefaultSound = true
+      soundId = -1
+      useDefaultShowPreview = true
+      showPreview = false
+      useDefaultMuteStories = true
+      muteStories = false
+      useDefaultStorySound = true
+      storySoundId = -1
+      useDefaultShowStoryPoster = true
+      showStoryPoster = true
+      useDefaultDisablePinnedMessageNotifications = true
+      disablePinnedMessageNotifications = false
+      useDefaultDisableMentionNotifications = true
+      disableMentionNotifications = false
+    }
+    availableReactions = ChatAvailableReactionsAll {
+      maxReactionCount = 11
+    }
+    messageAutoDeleteTime = 0
+    emojiStatus = null
+    background = null
+    themeName = ""
+    actionBar = null
+    businessBotManageBar = null
+    videoChat = VideoChat {
+      groupCallId = 0
+      hasParticipants = false
+      defaultParticipantId = null
+    }
+    pendingJoinRequests = null
+    replyMarkupMessageId = 0
+    draftMessage = null
+    clientData = ""
+  }
+}
+
+//// DIRECT MESSAGE CHAT
+
+07:58:55.358 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateSupergroup supergroup.id = 1302200315944, null
+07:58:55.358 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 1302200315944
+    usernames = null
+    date = 1763614398
+    status = ChatMemberStatusLeft {
+    }
+    memberCount = 1
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = false
+    hasLocation = false
+    signMessages = true
+    showMessageSender = true
+    joinToSendMessages = false
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = false
+    isBroadcastGroup = false
+    isForum = false
+    isDirectMessagesGroup = true
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = false
+    hasForumTabs = false
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}

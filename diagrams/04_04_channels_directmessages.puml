@@ -1,0 +1,70 @@
+@startuml
+
+title Channels
+
+namespace channel <<rectangle>> {
+
+    json channel.Supergroup {
+        "id" : 2200315944,
+        "isChannel": true,
+        "isForum": false,
+        "hasLinkedChat": false,
+        "hasDirectMessagesGroup": true,
+        "isDirectMessagesGroup": false
+    }
+
+    json channel.SupergroupFullInfo {
+        "description" : "channel with direct messages chat",
+        "linkedChatId" : 0,
+        "directMessagesChatId": -2302200315944
+    }
+
+    json channel.Chat {
+        "id" : -1002200315944,
+        "type": {
+            "_type" : "ChatTypeSupergroup",
+            "supergroupId": 2200315944,
+            "isChannel": true
+        }
+    }
+    
+    Supergroup ->SupergroupFullInfo : getSupergroupFullInfo
+}  
+
+
+namespace directMessages <<rectangle>> {
+    json directMessages.Supergroup {
+        "id" : 1302200315944,
+        "isChannel": false,
+        "isForum": false,
+        "hasLinkedChat": false,
+        "hasDirectMessagesGroup": false,
+        "isDirectMessagesGroup": true
+    }
+
+    json directMessages.SupergroupFullInfo {
+        "description" : "Discussion chat for lvtest2",
+        "linkedChatId" : 0,
+        "directMessagesChatId": -1002200315944
+
+    }
+
+    json directMessages.Chat {
+        "id" : -2302200315944,
+        "type": {
+            "_type" : "ChatTypeSupergroup",
+            "supergroupId": 1302200315944,
+            "isChannel": false
+        }
+    }
+
+    Supergroup ->SupergroupFullInfo : getSupergroupFullInfo
+
+}
+
+
+channel -[hidden]-> directMessages
+
+directMessages.SupergroupFullInfo -> channel.Chat
+
+@enduml

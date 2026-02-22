@@ -1,0 +1,185 @@
+07:16:44.462 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateSupergroupSupergroup supergroup.id = 2200675629, lvtest04
+07:16:44.462 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 2200675629
+    usernames = Usernames {
+      activeUsernames = vector[1] {
+        "lvtest04"
+      }
+      disabledUsernames = vector[0] {
+      }
+      editableUsername = "lvtest04"
+    }
+    date = 1763439789
+    status = ChatMemberStatusMember {
+      memberUntilDate = 0
+    }
+    memberCount = 2
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = false
+    hasLocation = false
+    signMessages = true
+    showMessageSender = true
+    joinToSendMessages = true
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = false
+    isBroadcastGroup = false
+    isForum = true
+    isDirectMessagesGroup = false
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = false
+    hasForumTabs = true
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}
+
+07:16:44.462 [TDLib thread        ] l.t.c.ChatInformationComposer DEBUG GetSupergroupFullInfo -> SupergroupFullInfo supergroup.inviteLink = null, supergroup.linkedChatId = 0, supergroup.directMessagesChatId = 0
+07:16:44.462 [TDLib thread        ] l.t.c.ChatInformationComposer TRACE SupergroupFullInfo {
+  photo = null
+  description = ""
+  memberCount = 2
+  administratorCount = 0
+  restrictedCount = 0
+  bannedCount = 0
+  linkedChatId = 0
+  directMessagesChatId = 0
+  slowModeDelay = 0
+  slowModeDelayExpiresIn = 0.000000
+  canEnablePaidMessages = true
+  canEnablePaidReaction = false
+  canGetMembers = true
+  hasHiddenMembers = false
+  canHideMembers = false
+  canSetStickerSet = false
+  canSetLocation = false
+  canGetStatistics = false
+  canGetRevenueStatistics = false
+  canGetStarRevenueStatistics = false
+  canSendGift = false
+  canToggleAggressiveAntiSpam = false
+  isAllHistoryAvailable = true
+  canHaveSponsoredMessages = true
+  hasAggressiveAntiSpamEnabled = false
+  hasPaidMediaAllowed = false
+  hasPinnedStories = false
+  giftCount = 0
+  myBoostCount = 0
+  unrestrictBoostCount = 0
+  outgoingPaidMessageStarCount = 0
+  stickerSetId = 0
+  customEmojiStickerSetId = 0
+  location = null
+  inviteLink = null
+  botCommands = vector[0] {
+  }
+  botVerification = null
+  upgradedFromBasicGroupId = 0
+  upgradedFromMaxMessageId = 0
+}
+
+07:16:44.462 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateNewChatChat chat.id = -1002200675629 supergroup.id = 2200675629 Lv test forum
+07:16:44.462 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateNewChat {
+  chat = Chat {
+    id = -1002200675629
+    type = ChatTypeSupergroup {
+      supergroupId = 2200675629
+      isChannel = false
+    }
+    title = "Lv test forum"
+    photo = null
+    accentColorId = 5
+    backgroundCustomEmojiId = 0
+    profileAccentColorId = -1
+    profileBackgroundCustomEmojiId = 0
+    permissions = ChatPermissions {
+      canSendBasicMessages = true
+      canSendAudios = true
+      canSendDocuments = true
+      canSendPhotos = true
+      canSendVideos = true
+      canSendVideoNotes = true
+      canSendVoiceNotes = true
+      canSendPolls = true
+      canSendOtherMessages = true
+      canAddLinkPreviews = true
+      canChangeInfo = false
+      canInviteUsers = true
+      canPinMessages = false
+      canCreateTopics = true
+    }
+    lastMessage = null
+    positions = vector[0] {
+    }
+    chatLists = vector[0] {
+    }
+    messageSenderId = null
+    blockList = null
+    hasProtectedContent = false
+    isTranslatable = false
+    isMarkedAsUnread = false
+    viewAsTopics = false
+    hasScheduledMessages = false
+    canBeDeletedOnlyForSelf = false
+    canBeDeletedForAllUsers = false
+    canBeReported = true
+    defaultDisableNotification = false
+    unreadCount = 0
+    lastReadInboxMessageId = 6291456
+    lastReadOutboxMessageId = 6291456
+    unreadMentionCount = 0
+    unreadReactionCount = 0
+    notificationSettings = ChatNotificationSettings {
+      useDefaultMuteFor = true
+      muteFor = 0
+      useDefaultSound = true
+      soundId = -1
+      useDefaultShowPreview = true
+      showPreview = false
+      useDefaultMuteStories = true
+      muteStories = false
+      useDefaultStorySound = true
+      storySoundId = -1
+      useDefaultShowStoryPoster = true
+      showStoryPoster = true
+      useDefaultDisablePinnedMessageNotifications = true
+      disablePinnedMessageNotifications = false
+      useDefaultDisableMentionNotifications = true
+      disableMentionNotifications = false
+    }
+    availableReactions = ChatAvailableReactionsAll {
+      maxReactionCount = 11
+    }
+    messageAutoDeleteTime = 0
+    emojiStatus = null
+    background = null
+    themeName = ""
+    actionBar = null
+    businessBotManageBar = null
+    videoChat = VideoChat {
+      groupCallId = 0
+      hasParticipants = false
+      defaultParticipantId = null
+    }
+    pendingJoinRequests = null
+    replyMarkupMessageId = 0
+    draftMessage = null
+    clientData = ""
+  }
+}
+
+07:16:44.463 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [call] GetForumTopics
+07:16:44.463 [Telegram client     ] l.t.c.ChatInformationComposer TRACE [call] GetForumTopics {
+  chatId = -1002200675629
+  query = ""
+  offsetDate = 0
+  offsetMessageId = 0
+  offsetMessageThreadId = 0
+  limit = 1
+}

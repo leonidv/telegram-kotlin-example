@@ -1,0 +1,72 @@
+14:40:47.959 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateAuthorizationState
+14:40:47.960 [Telegram client] DEBUG lv.tg.MyTelegramClient - [send] SetTdlibParameters
+14:40:47.968 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateDefaultReactionType
+14:40:47.971 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateAuthorizationState
+14:40:47.972 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSpeechRecognitionTrial
+14:40:47.972 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.972 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateFileDownloads
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [send] GetMe
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateDefaultPaidReactionType
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatFolders
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUnreadChatCount
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUnreadChatCount
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateHavePendingNotifications
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateStoryStealthMode
+14:40:47.973 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.975 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.975 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = 777000
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = 777000
+14:40:47.976 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = 777000
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = 777000
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = 5002560862
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = 5002560862
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSavedMessagesTopic
+14:40:47.976 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = 5002560862
+14:40:47.976 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = 5002560862
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 2200855836
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1002200855836
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = -1002200855836
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 2200649372
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1002200649372
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = -1002200649372
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroupFullInfo supergroupId = 2200855836
+14:40:47.977 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = -1002200855836
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = -1002200855836
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.977 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 5000164570
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1005000164570
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = -1005000164570
+14:40:47.978 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 5000000016
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1005000000016
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = -1005000000016
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroupFullInfo supergroupId = 5000164570
+14:40:47.978 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = -1005000164570
+14:40:47.978 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = -1005000164570
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateSupergroup supergroupId = 5000137331
+14:40:47.979 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = -1005000137331
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = -1005000137331
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = -1005000137331
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = -1005000137331
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateUser
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = 197312
+14:40:47.979 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = 197312
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = 197312
+14:40:47.979 [main] DEBUG lv.tg.MyTelegramClient - [send] LoadChats
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = 197312
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateNewChat chatId = 5000493909
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatAddedToList chatId = 5000493909
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatLastMessage chatId = 5000493909
+14:40:47.979 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateChatPosition chatId = 5000493909
+14:40:48.058 [Telegram client] DEBUG lv.tg.MyTelegramClient - [update] UpdateHavePendingNotifications

@@ -1,0 +1,376 @@
+TRACE UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 2200055731
+    usernames = Usernames {
+      activeUsernames = vector[1] {
+        "lvtest02"
+      }
+      disabledUsernames = vector[0] {
+      }
+      editableUsername = "lvtest02"
+    }
+    date = 1762923142
+    status = ChatMemberStatusMember {
+      memberUntilDate = 0
+    }
+    memberCount = 2
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = true
+    hasLocation = false
+    signMessages = false
+    showMessageSender = false
+    joinToSendMessages = true
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = true
+    isBroadcastGroup = false
+    isForum = false
+    isDirectMessagesGroup = false
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = false
+    hasForumTabs = false
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}
+
+07:09:10.128 [TDLib thread        ] l.t.c.LvTelegramClient TRACE SupergroupFullInfo {
+  photo = null
+  description = "channel with discussion chat"
+  memberCount = 2
+  administratorCount = 0
+  restrictedCount = 0
+  bannedCount = 0
+  linkedChatId = -1002200816075
+  directMessagesChatId = 0
+  slowModeDelay = 0
+  slowModeDelayExpiresIn = 0.000000
+  canEnablePaidMessages = true
+  canEnablePaidReaction = true
+  canGetMembers = false
+  hasHiddenMembers = true
+  canHideMembers = false
+  canSetStickerSet = false
+  canSetLocation = false
+  canGetStatistics = false
+  canGetRevenueStatistics = false
+  canGetStarRevenueStatistics = false
+  canSendGift = true
+  canToggleAggressiveAntiSpam = false
+  isAllHistoryAvailable = true
+  canHaveSponsoredMessages = true
+  hasAggressiveAntiSpamEnabled = false
+  hasPaidMediaAllowed = true
+  hasPinnedStories = false
+  giftCount = 0
+  myBoostCount = 0
+  unrestrictBoostCount = 0
+  outgoingPaidMessageStarCount = 0
+  stickerSetId = 0
+  customEmojiStickerSetId = 0
+  location = null
+  inviteLink = null
+  botCommands = vector[0] {
+  }
+  botVerification = null
+  upgradedFromBasicGroupId = 0
+  upgradedFromMaxMessageId = 0
+}
+
+07:09:10.128 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateNewChat {
+  chat = Chat {
+    id = -1002200055731
+    type = ChatTypeSupergroup {
+      supergroupId = 2200055731
+      isChannel = true
+    }
+    title = "Lv test channel with discussion"
+    photo = null
+    accentColorId = 6
+    backgroundCustomEmojiId = 0
+    profileAccentColorId = -1
+    profileBackgroundCustomEmojiId = 0
+    permissions = ChatPermissions {
+      canSendBasicMessages = false
+      canSendAudios = false
+      canSendDocuments = false
+      canSendPhotos = false
+      canSendVideos = false
+      canSendVideoNotes = false
+      canSendVoiceNotes = false
+      canSendPolls = false
+      canSendOtherMessages = false
+      canAddLinkPreviews = false
+      canChangeInfo = false
+      canInviteUsers = false
+      canPinMessages = false
+      canCreateTopics = false
+    }
+    lastMessage = null
+    positions = vector[0] {
+    }
+    chatLists = vector[0] {
+    }
+    messageSenderId = null
+    blockList = null
+    hasProtectedContent = false
+    isTranslatable = false
+    isMarkedAsUnread = false
+    viewAsTopics = false
+    hasScheduledMessages = false
+    canBeDeletedOnlyForSelf = false
+    canBeDeletedForAllUsers = false
+    canBeReported = true
+    defaultDisableNotification = false
+    unreadCount = 0
+    lastReadInboxMessageId = 2097152
+    lastReadOutboxMessageId = 2251799812636672
+    unreadMentionCount = 0
+    unreadReactionCount = 0
+    notificationSettings = ChatNotificationSettings {
+      useDefaultMuteFor = true
+      muteFor = 0
+      useDefaultSound = true
+      soundId = -1
+      useDefaultShowPreview = true
+      showPreview = false
+      useDefaultMuteStories = true
+      muteStories = false
+      useDefaultStorySound = true
+      storySoundId = -1
+      useDefaultShowStoryPoster = true
+      showStoryPoster = true
+      useDefaultDisablePinnedMessageNotifications = true
+      disablePinnedMessageNotifications = false
+      useDefaultDisableMentionNotifications = true
+      disableMentionNotifications = false
+    }
+    availableReactions = ChatAvailableReactionsSome {
+      reactions = vector[12] {
+        ReactionTypeEmoji {
+          emoji = "👍"
+        }
+        ReactionTypeEmoji {
+          emoji = "👎"
+        }
+        ReactionTypeEmoji {
+          emoji = "❤"
+        }
+        ReactionTypeEmoji {
+          emoji = "🎉"
+        }
+        ReactionTypeEmoji {
+          emoji = "💩"
+        }
+        ReactionTypeEmoji {
+          emoji = "🔥"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤮"
+        }
+        ReactionTypeEmoji {
+          emoji = "😂"
+        }
+        ReactionTypeEmoji {
+          emoji = "😭"
+        }
+        ReactionTypeEmoji {
+          emoji = "😱"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤩"
+        }
+        ReactionTypeEmoji {
+          emoji = "🤡"
+        }
+      }
+      maxReactionCount = 11
+    }
+    messageAutoDeleteTime = 0
+    emojiStatus = null
+    background = null
+    themeName = ""
+    actionBar = null
+    businessBotManageBar = null
+    videoChat = VideoChat {
+      groupCallId = 0
+      hasParticipants = false
+      defaultParticipantId = null
+    }
+    pendingJoinRequests = null
+    replyMarkupMessageId = 0
+    draftMessage = null
+    clientData = ""
+  }
+}
+07:09:10.129 [Telegram client     ] l.t.c.ChatInformationComposer DEBUG [process] UpdateSupergroup supergroup.id = 2200816075, null
+07:09:10.129 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateSupergroup {
+  supergroup = Supergroup {
+    id = 2200816075
+    usernames = null
+    date = 1762922745
+    status = ChatMemberStatusLeft {
+    }
+    memberCount = 0
+    boostLevel = 0
+    hasAutomaticTranslation = false
+    hasLinkedChat = true
+    hasLocation = false
+    signMessages = true
+    showMessageSender = true
+    joinToSendMessages = false
+    joinByRequest = false
+    isSlowModeEnabled = false
+    isChannel = false
+    isBroadcastGroup = false
+    isForum = false
+    isDirectMessagesGroup = false
+    isAdministeredDirectMessagesGroup = false
+    verificationStatus = null
+    hasDirectMessagesGroup = false
+    hasForumTabs = false
+    hasSensitiveContent = false
+    restrictionReason = ""
+    paidMessageStarCount = 0
+    hasActiveStories = false
+    hasUnreadActiveStories = false
+  }
+}
+
+7:09:10.129 [Telegram client     ] l.t.c.LvTelegramClient DEBUG [update] UpdateSupergroupFullInfo supergroup.id = 2200816075
+07:09:10.129 [TDLib thread        ] l.t.c.LvTelegramClient TRACE SupergroupFullInfo {
+  photo = null
+  description = "Discussion chat for lvtest2"
+  memberCount = 0
+  administratorCount = 0
+  restrictedCount = 0
+  bannedCount = 0
+  linkedChatId = -1002200055731
+  directMessagesChatId = 0
+  slowModeDelay = 0
+  slowModeDelayExpiresIn = 0.000000
+  canEnablePaidMessages = true
+  canEnablePaidReaction = false
+  canGetMembers = true
+  hasHiddenMembers = false
+  canHideMembers = false
+  canSetStickerSet = false
+  canSetLocation = false
+  canGetStatistics = false
+  canGetRevenueStatistics = false
+  canGetStarRevenueStatistics = false
+  canSendGift = false
+  canToggleAggressiveAntiSpam = false
+  isAllHistoryAvailable = true
+  canHaveSponsoredMessages = true
+  hasAggressiveAntiSpamEnabled = false
+  hasPaidMediaAllowed = false
+  hasPinnedStories = false
+  giftCount = 0
+  myBoostCount = 0
+  unrestrictBoostCount = 0
+  outgoingPaidMessageStarCount = 0
+  stickerSetId = 0
+  customEmojiStickerSetId = 0
+  location = null
+  inviteLink = null
+  botCommands = vector[0] {
+  }
+  botVerification = null
+  upgradedFromBasicGroupId = 0
+  upgradedFromMaxMessageId = 0
+}
+
+07:09:10.129 [Telegram client     ] l.t.c.ChatInformationComposer TRACE UpdateNewChat {
+  chat = Chat {
+    id = -1002200816075
+    type = ChatTypeSupergroup {
+      supergroupId = 2200816075
+      isChannel = false
+    }
+    title = "Lv test discussion chat for lvtest02"
+    photo = null
+    accentColorId = 3
+    backgroundCustomEmojiId = 0
+    profileAccentColorId = -1
+    profileBackgroundCustomEmojiId = 0
+    permissions = ChatPermissions {
+      canSendBasicMessages = true
+      canSendAudios = true
+      canSendDocuments = true
+      canSendPhotos = true
+      canSendVideos = true
+      canSendVideoNotes = true
+      canSendVoiceNotes = true
+      canSendPolls = true
+      canSendOtherMessages = true
+      canAddLinkPreviews = true
+      canChangeInfo = false
+      canInviteUsers = false
+      canPinMessages = false
+      canCreateTopics = true
+    }
+    lastMessage = null
+    positions = vector[0] {
+    }
+    chatLists = vector[0] {
+    }
+    messageSenderId = null
+    blockList = null
+    hasProtectedContent = false
+    isTranslatable = false
+    isMarkedAsUnread = false
+    viewAsTopics = false
+    hasScheduledMessages = false
+    canBeDeletedOnlyForSelf = false
+    canBeDeletedForAllUsers = false
+    canBeReported = true
+    defaultDisableNotification = false
+    unreadCount = 0
+    lastReadInboxMessageId = 0
+    lastReadOutboxMessageId = 3145728
+    unreadMentionCount = 0
+    unreadReactionCount = 0
+    notificationSettings = ChatNotificationSettings {
+      useDefaultMuteFor = true
+      muteFor = 0
+      useDefaultSound = true
+      soundId = -1
+      useDefaultShowPreview = true
+      showPreview = false
+      useDefaultMuteStories = true
+      muteStories = false
+      useDefaultStorySound = true
+      storySoundId = -1
+      useDefaultShowStoryPoster = true
+      showStoryPoster = true
+      useDefaultDisablePinnedMessageNotifications = true
+      disablePinnedMessageNotifications = false
+      useDefaultDisableMentionNotifications = true
+      disableMentionNotifications = false
+    }
+    availableReactions = ChatAvailableReactionsAll {
+      maxReactionCount = 11
+    }
+    messageAutoDeleteTime = 0
+    emojiStatus = null
+    background = null
+    themeName = ""
+    actionBar = null
+    businessBotManageBar = null
+    videoChat = VideoChat {
+      groupCallId = 0
+      hasParticipants = false
+      defaultParticipantId = null
+    }
+    pendingJoinRequests = null
+    replyMarkupMessageId = 0
+    draftMessage = null
+    clientData = ""
+  }
+}

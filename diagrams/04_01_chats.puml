@@ -1,0 +1,11 @@
+@startuml
+
+json Chat {
+    "id" : "123",
+    "type" : {
+        "_type": "ChatTypePrivate",
+        "user_id" : "987"
+    }
+}
+
+@enduml
